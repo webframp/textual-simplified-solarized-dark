@@ -224,15 +224,11 @@ body[dir=rtl] div[type*=action] .sender:after {
 	margin-left: 0.4em;
 }
 
-/* REPLY/SYSTEM/ERROR/DEBUG/INVITE */
+/* /DEBUG/INVITE */
 
-body div.line[type*=reply],
-body div.line[type*=error],
 body div.line[type*=invite],
-body div.line[type*=system],
-body div.line[type*=debug_send],
-body div.line[type*=error_reply],
-body div.line[type*=debug_receive] {
+body div.line[type*=debug],
+body div.line[type*=rawhtml] {
 	color: #839496;
 	z-index: 190;
 	background: #073642;
@@ -251,8 +247,8 @@ body div.line[type*=quit],
 body div.line[type*=kill],
 body div.line[type*=nick],
 body div.line[type*=mode],
-body div.line[type*=topic],
-body div.line[type*=website] {
+body div.line[type*=website],
+body div.line[type*=topic] {
 	padding: 3px 5px 3px 5px;
 	color: #586e75;
 }
