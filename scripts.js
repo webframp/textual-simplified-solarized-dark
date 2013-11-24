@@ -23,5 +23,5 @@
 
 
 /* Using script.js as a loader */
-Textual.include_js('lib/zepto.min.js');
-Textual.include_js('lib/simplified-solarized.js');
+Textual.include_js('Data/Resources/zepto.min.js');
+Textual.include_js('Data/Resources/simplified-solarized.js');
