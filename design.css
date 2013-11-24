@@ -1,5 +1,5 @@
 /*
- Simplified Colors used throughout
+  Simplified Colors used throughout
 
 base03    #002b36
 base02    #073642
@@ -23,172 +23,172 @@ green     #859900
 /* Basic Body Structure */
 
 * {
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	word-wrap: break-word;
-}	
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    word-wrap: break-word;
+}
 
 body {
-	color: #839496;
-	height: 100%;
-	z-index: 100;
-	font-size: 12px;
-	overflow: hidden;
-	overflow-y: visible;
-	background-color: #002b36;
-	font-family: "Lucida Grande";
+    color: #839496;
+    height: 100%;
+    z-index: 100;
+    font-size: 12px;
+    overflow: hidden;
+    overflow-y: visible;
+    background-color: #002b36;
+    font-family: "Lucida Grande";
 }
 
 body div#body_home {
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	z-index: 100;
-	max-height: 99.99%;
-	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    max-height: 99.99%;
+    position: absolute;
 }
 
 body[type=channel] div#body_home {
-	max-height: 96.5%;
+    max-height: 96.5%;
 }
 
 body .line {
-	margin-top: -1px;
+    margin-top: -1px;
 }
 
 body[dir=rtl] .sender {
-	display: inline-block;
+    display: inline-block;
 }
 
 /* TODO Loading Screen */
 
 body div#loading_screen {
-	position:absolute; 
-	top: 50%;
-	left: 50%;
-	margin-top: -11px;
-	margin-left: -150px;
-	width: 300px;
-	height: 21px;
-	font-size: 18px;
-	background: #181818;
-	border: 1px solid #333333;
-	border-radius: 5px;
-	padding: 5px;
-	padding-left: 10px;
-	opacity: 1; /* Set by JavaScript */
-	-webkit-transition: opacity 0.8s linear;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -11px;
+    margin-left: -150px;
+    width: 300px;
+    height: 21px;
+    font-size: 18px;
+    background: #181818;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    opacity: 1; /* Set by JavaScript */
+    -webkit-transition: opacity 0.8s linear;
 }
 
 /* Time */
 
 body[dir=ltr] .time {
-	color: #586e75;
-	white-space: nowrap; 
+    color: #586e75;
+    white-space: nowrap;
 }
 
 body[dir=rtl] .time {
-	color: #586e75;
-	white-space: nowrap; 
-	padding-left: 0.4em;
-	display: inline-block;
+    color: #586e75;
+    white-space: nowrap;
+    padding-left: 0.4em;
+    display: inline-block;
 }
 
 /* Encryption Lock */
 
 .encryptionLock img {
-	float: right;
-	margin: 0;
-	padding: 0;
-	height: 11px;
-	margin-top: 2px;
-	padding-left: 10px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    height: 11px;
+    margin-top: 2px;
+    padding-left: 10px;
 }
 
 /* Links */
 
 a {
-	color: #93a1a1;
-	border-color: #93a1a1;
-	text-decoration: none;
-	border-bottom: dotted 1px;
+    color: #93a1a1;
+    border-color: #93a1a1;
+    text-decoration: none;
+    border-bottom: dotted 1px;
 }
 
 a:hover {
-	color: #eee8d5;
-	border-color: #eee8d5;
+    color: #eee8d5;
+    border-color: #eee8d5;
 }
 
 /* Topic Bar */
 
 #topic_bar {
-	top: 0;
-	left: 0;
-	right: 0;
-	color: #839496;
-	z-index: 400;
-	opacity: 0.95;
-	position: fixed;
-	background: #fdf6e3;
-	padding: 2px 0.5em 3px;
-	border-bottom: 1px solid #073642;
-	-webkit-box-shadow: 0 1px 5px #777;
-	-webkit-transition: opacity 0.8s linear;
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #839496;
+    z-index: 400;
+    opacity: 0.95;
+    position: fixed;
+    background: #fdf6e3;
+    padding: 2px 0.5em 3px;
+    border-bottom: 1px solid #073642;
+    -webkit-box-shadow: 0 1px 5px #777;
+    -webkit-transition: opacity 0.8s linear;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 /* Topic bar hover additions contributed with permission from the project:
-	<https://github.com/hbang/Simplified-Light-Modifications> */
+   <https://github.com/hbang/Simplified-Light-Modifications> */
 
 #topic_bar:hover {
-	overflow: visible;
-	white-space: normal;
+    overflow: visible;
+    white-space: normal;
 }
 
 #topic_bar a {
-	color: #586e75;
-	border-color: #586e75;
-	text-decoration: none;
-	border-bottom: dotted 1px;
+    color: #586e75;
+    border-color: #586e75;
+    text-decoration: none;
+    border-bottom: dotted 1px;
 }
 
 #topic_bar a:hover {
-	color: #073642;
-	border-color: #073642;
+    color: #073642;
+    border-color: #073642;
 }
 
 /* Images */
 
 body a img {
-	border: 0;
+    border: 0;
 }
 
 body img {
-	display: block;
-	max-width: 95%;
-	margin: 15px 15px 12px 15px;
+    display: block;
+    max-width: 95%;
+    margin: 15px 15px 12px 15px;
 }
 
 /* Remember Line */
 
 div[id=mark] {
-	position: relative;
-	z-index: 295;
-	margin-top: -1px;
-	border-bottom: 1px dashed;
-	border-color: #586e75;
-	-webkit-transition: 0.2s linear;
+    position: relative;
+    z-index: 295;
+    margin-top: -1px;
+    border-bottom: 1px dashed;
+    border-color: #586e75;
+    -webkit-transition: 0.2s linear;
 }
 
 /* Historic Line */
 
-.historic 
+.historic
 {
-	opacity: 0.6;
+    opacity: 0.6;
 }
 
 /* NOTICE/CTCP/WALLOPS */
@@ -196,84 +196,84 @@ div[id=mark] {
 body div.line[type*=ctcp],
 body div.line[type*=notice],
 body div.line[type*=wallops] {
-	color: #dc322f;
-	z-index: 191;
-	background: rgba(220, 50, 47, 0.4); /* dc322f with opacity */
-	position: relative;
-	padding: 2px 5px 2px 5px;
-	border-top: 1px solid #dc322f;
-	border-bottom: 1px solid #dc322f;
+    color: #dc322f;
+    z-index: 191;
+    background: rgba(220, 50, 47, 0.4); /* dc322f with opacity */
+    position: relative;
+    padding: 2px 5px 2px 5px;
+    border-top: 1px solid #dc322f;
+    border-bottom: 1px solid #dc322f;
 }
 
 body div[type*=notice] .sender {
-	color: #dc322f !important;
-	font-weight: 700;
+    color: #dc322f !important;
+    font-weight: 700;
 }
 
-/* PRIVMSG solarized */ 
+/* PRIVMSG solarized */
 
 body div.line[type*=privmsg][highlight=false] {
-	padding: 3px 5px 3px 5px;
+    padding: 3px 5px 3px 5px;
 }
 
 body div.line[type*=privmsg][highlight=true],
 body div.line[type*=action][highlight=true] {
-	font-weight: normal;
-	padding: 2px 5px 2px 5px;
-	border-top: 1px solid #b58900;
-	border-bottom: 1px solid #b58900;
-	background-color: rgba(203, 75, 22, 0.3) !important;
+    font-weight: normal;
+    padding: 2px 5px 2px 5px;
+    border-top: 1px solid #b58900;
+    border-bottom: 1px solid #b58900;
+    background-color: rgba(203, 75, 22, 0.3) !important;
 }
 
 body div[type="privmsg"] .message {
-	color: #839496;
+    color: #839496;
 }
 
 body div[type*=privmsg] p[type*=myself] .message {
-	color: #93a1a1;
+    color: #93a1a1;
 }
 
 body div[type*=privmsg] .sender {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 /* ACTION */
 
 body div.line[type*=action] {
-	padding: 3px 5px 3px 5px;
+    padding: 3px 5px 3px 5px;
 }
 
 body div[type="action"] .message {
-	color: #839496;
+    color: #839496;
 }
 
 body div[type*=action] .sender {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 body div[type*=action] p[type*=myself] .sender,
 body div[type*=action] p[type*=myself] .message {
-	color: #93a1a1;
+    color: #93a1a1;
 }
 
 body[dir=ltr] div[type*=action] .sender:before {
-	content: "\2022";
-	margin-right: 0.4em;
+    content: "\2022";
+    margin-right: 0.4em;
 }
 
 body[dir=ltr] div[type*=action] .sender:after {
-	content: "";
-	margin-right: 0.4em; /* commented out in Astria style */
+    content: "";
+    margin-right: 0.4em; /* commented out in Astria style */
 }
 
 body[dir=rtl] div[type*=action] .sender:before {
-	content: "\2022";
-	margin-left: 0.4em;
+    content: "\2022";
+    margin-left: 0.4em;
 }
 
 body[dir=rtl] div[type*=action] .sender:after {
-	content: "";
-	margin-left: 0.4em; /* commented out in Astria style */
+    content: "";
+    margin-left: 0.4em; /* commented out in Astria style */
 }
 
 /* /DEBUG/INVITE */
@@ -281,13 +281,13 @@ body[dir=rtl] div[type*=action] .sender:after {
 body div.line[type*=invite],
 body div.line[type*=debug],
 body div.line[type*=rawhtml] {
-	color: #839496;
-	z-index: 190;
-	background: #073642;
-	position: relative;
-	padding: 2px 5px 2px 5px;
-	border-top: 1px solid #586e75;
-	border-bottom: 1px solid #586e75;
+    color: #839496;
+    z-index: 190;
+    background: #073642;
+    position: relative;
+    padding: 2px 5px 2px 5px;
+    border-top: 1px solid #586e75;
+    border-bottom: 1px solid #586e75;
 }
 
 /* Message of the Day (MOTD) */
@@ -296,23 +296,23 @@ body div.line[type*=rawhtml] {
 
 body div.line[command="372"],
 body div.line[command="721"] {
-        border: none;
-        padding-top: 3px;
-        padding-bottom: 3px;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 body div.line[command="375"],
 body div.line[command="720"] { /* Start. */
-        border-bottom: none;
-        padding-top: 2px;
-        padding-bottom: 3px;
+    border-bottom: none;
+    padding-top: 2px;
+    padding-bottom: 3px;
 }
 
 body div.line[command="376"],
 body div.line[command="722"] { /* End. */
-        border-top: none;
-        padding-top: 3px;
-        padding-bottom: 3px;
+    border-top: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 body div.line[command="372"] .message,
@@ -321,7 +321,7 @@ body div.line[command="376"] .message
 body div.line[command="720"] .message,
 body div.line[command="721"] .message,
 body div.line[command="722"] .message {
-        font-family: "Menlo" !important;
+    font-family: "Menlo" !important;
 }
 
 /* GENERAL EVENT */
@@ -335,328 +335,328 @@ body div.line[type*=nick],
 body div.line[type*=mode],
 body div.line[type*=website],
 body div.line[type*=topic] {
-	padding: 3px 5px 3px 5px;
-	color: #586e75;
+    padding: 3px 5px 3px 5px;
+    color: #586e75;
 }
 
 body[dir=ltr] div[type*=join] .message:before {
-	content: "→";
-	color: #859900;
-	margin-right: 0.4em; /* commented out in Astria style */
+    content: "→";
+    color: #859900;
+    margin-right: 0.4em; /* commented out in Astria style */
 }
 
 body[dir=ltr] div[type*=join] .message {
-  	color: #6c71c4;
-  	margin-right: 0.4em;
+    color: #6c71c4;
+    margin-right: 0.4em;
 }
 
 body[dir=ltr] div[type*=kick] .message:before {
-	content: "✕";
-  	color: #dc322f;
-  	margin-right: 0.4em; /* commented out in Astria */
+    content: "✕";
+    color: #dc322f;
+    margin-right: 0.4em; /* commented out in Astria */
 }
 
 
 body[dir=ltr] div[type*=part] .message:before,
 body[dir=ltr] div[type*=quit] .message:before {
-	content: "←";
-	color: #dc322f;
-	margin-right: 0.4em; /* commented out in Astria */
+    content: "←";
+    color: #dc322f;
+    margin-right: 0.4em; /* commented out in Astria */
 }
 
 /* TODO need to modify colors */
 body[dir=ltr] div[type*=kick] .message {
-  	color: #ff3d3d;
-  	margin-right: 0.4em;
+    color: #ff3d3d;
+    margin-right: 0.4em;
 }
 
 body[dir=ltr] div[type*=part] .message {
-  	color: #ffae01;
-  	margin-right: 0.4em;
+    color: #ffae01;
+    margin-right: 0.4em;
 }
 
 body[dir=ltr] div[type*=quit] .message {
-  	color: #ffee7a;
-  	margin-right: 0.4em;
+    color: #ffee7a;
+    margin-right: 0.4em;
 }
 /* end new */
 
 body[dir=ltr] div[type*=nick] .message:before {
-	content:"•";
-	color: #859900;
-	margin-right: 0.4em; /* commented out in Astria */
+    content:"•";
+    color: #859900;
+    margin-right: 0.4em; /* commented out in Astria */
 }
 
 /* TODO colors */
 body[dir=ltr] div[type*=nick] .message {
-  	color: #0090ff;
-  	margin-right: 0.4em;
+    color: #0090ff;
+    margin-right: 0.4em;
 }
 
 body[dir=ltr] div[type*=mode] .message:before {
-	content: "❖";
-  	color: #b4a355;
-  	/* margin-right: 0.4em; */
+    content: "❖";
+    color: #b4a355;
+/* margin-right: 0.4em; */
 }
 
 body[dir=ltr] div[type*=mode] .message {
-  	color: #9c9c9c;
-  	margin-right: 0.4em;
+    color: #9c9c9c;
+    margin-right: 0.4em;
 }
 
 body[dir=ltr] div[type*=topic] .message:before {
-	content: "✦";
-  	color: #00a2ff;
-  	/* margin-right: 0.4em; */
+    content: "✦";
+    color: #00a2ff;
+/* margin-right: 0.4em; */
 }
 
 body[dir=ltr] div[type*=topic] .message {
-  	color: #00ffa2;
-  	margin-right: 0.4em;
+    color: #00ffa2;
+    margin-right: 0.4em;
 }
 /* end new */
 
 body[dir=rtl] div[type*=join] .message:before {
-	content: "→";
-	color: #859900;
-	margin-left: 0.4em;  /* commented out in Astria */
+    content: "→";
+    color: #859900;
+    margin-left: 0.4em;  /* commented out in Astria */
 }
 
 /* TODO colors */
 body[dir=rtl] div[type*=join] .message {
-  	color: #b589ff;
-  	margin-left: 0.4em;
+    color: #b589ff;
+    margin-left: 0.4em;
 }
 
 body[dir=rtl] div[type*=kick] .message:before {
-	content: "✕";
-  	color: #e00;
-  	/* margin-left: 0.4em; */
+    content: "✕";
+    color: #e00;
+/* margin-left: 0.4em; */
 }
 /* end new */
 
 body[dir=rtl] div[type*=part] .message:before,
 body[dir=rtl] div[type*=quit] .message:before {
-	content: "←";
-	color: #dc322f;
-	margin-left: 0.4em;
+    content: "←";
+    color: #dc322f;
+    margin-left: 0.4em;
 }
 
 /* TODO colors */
 body[dir=rtl] div[type*=kick] .message {
-  	color: #ff3d3d;
-  	margin-left: 0.4em;
+    color: #ff3d3d;
+    margin-left: 0.4em;
 }
 
 body[dir=rtl] div[type*=part] .message {
-  	color: #ffae01;
-  	margin-left: 0.4em;
+    color: #ffae01;
+    margin-left: 0.4em;
 }
 
 body[dir=rtl] div[type*=quit] .message {
-  	color: #ffee7a;
-  	margin-left: 0.4em;
+    color: #ffee7a;
+    margin-left: 0.4em;
 }
 /* end new */
 
 body[dir=rtl] div[type*=nick] .message:before {
-	content:"•";
-	color: #859900;
-	margin-left: 0.4em;
+    content:"•";
+    color: #859900;
+    margin-left: 0.4em;
 }
 
 /* TODO colors */
 body[dir=rtl] div[type*=nick] .message {
-  	color: #0090ff;
-  	margin-left: 0.4em;
+    color: #0090ff;
+    margin-left: 0.4em;
 }
 
 body[dir=rtl] div[type*=mode] .message:before {
-	content: "❖";
-  	color: #b4a355;
-  	/* margin-left: 0.4em; */
+    content: "❖";
+    color: #b4a355;
+/* margin-left: 0.4em; */
 }
 
 body[dir=rtl] div[type*=mode] .message {
-  	color: #9c9c9c;
-  	margin-left: 0.4em;
+    color: #9c9c9c;
+    margin-left: 0.4em;
 }
 
 body[dir=rtl] div[type*=topic] .message:before {
-	content: "✦";
-  	color: #00a2ff;
-  	/* margin-left: 0.4em; */
+    content: "✦";
+    color: #00a2ff;
+/* margin-left: 0.4em; */
 }
 
 body[dir=rtl] div[type*=topic] .message {
-  	color: #00ffa2;
-  	margin-left: 0.4em;
+    color: #00ffa2;
+    margin-left: 0.4em;
 }
 /* end new */
 
 /* Nickname Colors */
 
 body .inline_nickname {
-	font-weight: 700;
+    font-weight: 700;
 }
 
-body div[type*=privmsg] .sender[type*=myself] { 
-	color: #268bd2;
+body div[type*=privmsg] .sender[type*=myself] {
+    color: #268bd2;
 }
 
-body .sender[type*=normal][colornumber='0'], 
-body .inline_nickname[colornumber='0'] { 
-	color: #dc322f; /* kept red for right now */
+body .sender[type*=normal][colornumber='0'],
+body .inline_nickname[colornumber='0'] {
+    color: #dc322f; /* kept red for right now */
 }
 
-body .sender[type*=normal][colornumber='1'], 
-body .inline_nickname[colornumber='1'] { 
-	color: #b58900;
+body .sender[type*=normal][colornumber='1'],
+body .inline_nickname[colornumber='1'] {
+    color: #b58900;
 }
 
-body .sender[type*=normal][colornumber='2'], 
-body .inline_nickname[colornumber='2'] { 
-	color: #cb4b16;
+body .sender[type*=normal][colornumber='2'],
+body .inline_nickname[colornumber='2'] {
+    color: #cb4b16;
 }
 
-body .sender[type*=normal][colornumber='3'], 
-body .inline_nickname[colornumber='3'] { 
-	color: #d33682;
+body .sender[type*=normal][colornumber='3'],
+body .inline_nickname[colornumber='3'] {
+    color: #d33682;
 }
 
-body .sender[type*=normal][colornumber='4'], 
-body .inline_nickname[colornumber='4'] { 
-	color: #6c71c4;
+body .sender[type*=normal][colornumber='4'],
+body .inline_nickname[colornumber='4'] {
+    color: #6c71c4;
 }
 
-body .sender[type*=normal][colornumber='5'], 
-body .inline_nickname[colornumber='5'] { 
-	color: #268bd2;
+body .sender[type*=normal][colornumber='5'],
+body .inline_nickname[colornumber='5'] {
+    color: #268bd2;
 }
 
 body .sender[type*=normal][colornumber='6'],
-body .inline_nickname[colornumber='6'] { 
-	color: #2aa198;
+body .inline_nickname[colornumber='6'] {
+    color: #2aa198;
 }
 
-body .sender[type*=normal][colornumber='7'], 
-body .inline_nickname[colornumber='7'] { 
-	color: #859900;
+body .sender[type*=normal][colornumber='7'],
+body .inline_nickname[colornumber='7'] {
+    color: #859900;
 }
 
 body .sender[type*=normal][colornumber='8'],
-body .inline_nickname[colornumber='8'] { 
-	color: #75A1FB; 
+body .inline_nickname[colornumber='8'] {
+    color: #75A1FB;
 }
 
-body .sender[type*=normal][colornumber='9'], 
-body .inline_nickname[colornumber='9'] { 
-	color: #97C74B; 
+body .sender[type*=normal][colornumber='9'],
+body .inline_nickname[colornumber='9'] {
+    color: #97C74B;
 }
 
-body .sender[type*=normal][colornumber='10'], 
-body .inline_nickname[colornumber='10'] { 
-	color: #A5EAC4; 
+body .sender[type*=normal][colornumber='10'],
+body .inline_nickname[colornumber='10'] {
+    color: #A5EAC4;
 }
 
-body .sender[type*=normal][colornumber='11'], 
-body .inline_nickname[colornumber='11'] { 
-	color: #FFA6A0; 
+body .sender[type*=normal][colornumber='11'],
+body .inline_nickname[colornumber='11'] {
+    color: #FFA6A0;
 }
 
-body .sender[type*=normal][colornumber='12'], 
-body .inline_nickname[colornumber='12'] { 
-	color: #8E67E7; 
+body .sender[type*=normal][colornumber='12'],
+body .inline_nickname[colornumber='12'] {
+    color: #8E67E7;
 }
 
-body .sender[type*=normal][colornumber='13'], 
-body .inline_nickname[colornumber='13'] { 
-	color: #FFBB58; 
+body .sender[type*=normal][colornumber='13'],
+body .inline_nickname[colornumber='13'] {
+    color: #FFBB58;
 }
 
-body .sender[type*=normal][colornumber='14'], 
-body .inline_nickname[colornumber='14'] { 
-	color: #EDD7AD; 
+body .sender[type*=normal][colornumber='14'],
+body .inline_nickname[colornumber='14'] {
+    color: #EDD7AD;
 }
 
-body .sender[type*=normal][colornumber='15'], 
-body .inline_nickname[colornumber='15'] { 
-	color: #FF1676;
+body .sender[type*=normal][colornumber='15'],
+body .inline_nickname[colornumber='15'] {
+    color: #FF1676;
 }
 
-body .sender[type*=normal][colornumber='16'], 
-body .inline_nickname[colornumber='16'] { 
-	color: #706616;
+body .sender[type*=normal][colornumber='16'],
+body .inline_nickname[colornumber='16'] {
+    color: #706616;
 }
 
-body .sender[type*=normal][colornumber='17'], 
-body .inline_nickname[colornumber='17'] { 
-	color: #46799c;
+body .sender[type*=normal][colornumber='17'],
+body .inline_nickname[colornumber='17'] {
+    color: #46799c;
 }
 
-body .sender[type*=normal][colornumber='18'], 
-body .inline_nickname[colornumber='18'] { 
-	color: #80372e;
+body .sender[type*=normal][colornumber='18'],
+body .inline_nickname[colornumber='18'] {
+    color: #80372e;
 }
 
-body .sender[type*=normal][colornumber='19'], 
-body .inline_nickname[colornumber='19'] { 
-	color: #8F478E;
+body .sender[type*=normal][colornumber='19'],
+body .inline_nickname[colornumber='19'] {
+    color: #8F478E;
 }
 
-body .sender[type*=normal][colornumber='20'], 
-body .inline_nickname[colornumber='20'] { 
-	color: #5b9e4c;
+body .sender[type*=normal][colornumber='20'],
+body .inline_nickname[colornumber='20'] {
+    color: #5b9e4c;
 }
 
-body .sender[type*=normal][colornumber='21'], 
-body .inline_nickname[colornumber='21'] { 
-	color: #13826c;
+body .sender[type*=normal][colornumber='21'],
+body .inline_nickname[colornumber='21'] {
+    color: #13826c;
 }
 
-body .sender[type*=normal][colornumber='22'], 
-body .inline_nickname[colornumber='22'] { 
-	color: #b13637;
+body .sender[type*=normal][colornumber='22'],
+body .inline_nickname[colornumber='22'] {
+    color: #b13637;
 }
 
-body .sender[type*=normal][colornumber='23'], 
-body .inline_nickname[colornumber='23'] { 
-	color: #e45d59;
+body .sender[type*=normal][colornumber='23'],
+body .inline_nickname[colornumber='23'] {
+    color: #e45d59;
 }
 
-body .sender[type*=normal][colornumber='24'], 
-body .inline_nickname[colornumber='24'] { 
-	color: #1b51ae;
+body .sender[type*=normal][colornumber='24'],
+body .inline_nickname[colornumber='24'] {
+    color: #1b51ae;
 }
 
-body .sender[type*=normal][colornumber='25'], 
-body .inline_nickname[colornumber='25'] { 
-	color: #4855ac;
+body .sender[type*=normal][colornumber='25'],
+body .inline_nickname[colornumber='25'] {
+    color: #4855ac;
 }
 
-body .sender[type*=normal][colornumber='26'], 
-body .inline_nickname[colornumber='26'] { 
-	color: #7f1d86;
+body .sender[type*=normal][colornumber='26'],
+body .inline_nickname[colornumber='26'] {
+    color: #7f1d86;
 }
 
-body .sender[type*=normal][colornumber='27'], 
-body .inline_nickname[colornumber='27'] { 
-	color: #73643f;
+body .sender[type*=normal][colornumber='27'],
+body .inline_nickname[colornumber='27'] {
+    color: #73643f;
 }
 
-body .sender[type*=normal][colornumber='28'], 
-body .inline_nickname[colornumber='28'] { 
-	color: #0b9578;
+body .sender[type*=normal][colornumber='28'],
+body .inline_nickname[colornumber='28'] {
+    color: #0b9578;
 }
 
-body .sender[type*=normal][colornumber='29'], 
-body .inline_nickname[colornumber='29'] { 
-	color: #569c96;
+body .sender[type*=normal][colornumber='29'],
+body .inline_nickname[colornumber='29'] {
+    color: #569c96;
 }
 
-body .sender[type*=normal][colornumber='30'], 
-body .inline_nickname[colornumber='30'] { 
-	color: #08465f;
+body .sender[type*=normal][colornumber='30'],
+body .inline_nickname[colornumber='30'] {
+    color: #08465f;
 }
 
 /* mIRC Color Codes */
@@ -697,7 +697,7 @@ body .inline_nickname[colornumber='30'] {
 
 /* extras */
 .ellipsis {
-	text-overflow: ellipsis;
-	overflow: hidden;
-	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
