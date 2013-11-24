@@ -21,7 +21,17 @@
 // Textual.on_ct_nick: function() { app.setNick(event.target.innerHTML); }
 // Textual.on_nick = function() { app.setNick(event.target.getAttribute("nick")); }
 
+Textual.viewFinishedLoading = function()
+{
+    Textual.fadeInLoadingScreen(1.00, 0.95);
 
-/* Using script.js as a loader */
-Textual.include_js('Data/Resources/zepto.min.js');
-Textual.include_js('Data/Resources/simplified-solarized.js');
+    setTimeout(function() {
+        Textual.scrollToBottomOfView()
+        }, 500);
+}
+
+Textual.viewFinishedReload = function()
+{
+    Textual.viewFinishedLoading();
+}
+
