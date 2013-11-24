@@ -62,7 +62,7 @@ body[dir=rtl] .sender {
     display: inline-block;
 }
 
-/* TODO Loading Screen */
+/* Loading Screen */
 
 body div#loading_screen {
     position:absolute;
@@ -73,8 +73,8 @@ body div#loading_screen {
     width: 300px;
     height: 21px;
     font-size: 18px;
-    background: #181818;
-    border: 1px solid #333333;
+    background: #002b36;
+    border: 1px solid #073642;
     border-radius: 5px;
     padding: 5px;
     padding-left: 10px;
@@ -210,7 +210,7 @@ body div[type*=notice] .sender {
     font-weight: 700;
 }
 
-/* PRIVMSG solarized */
+/* PRIVMSG */
 
 body div.line[type*=privmsg][highlight=false] {
     padding: 3px 5px 3px 5px;
@@ -356,7 +356,6 @@ body[dir=ltr] div[type*=kick] .message:before {
     margin-right: 0.4em; /* commented out in Astria */
 }
 
-
 body[dir=ltr] div[type*=part] .message:before,
 body[dir=ltr] div[type*=quit] .message:before {
     content: "←";
@@ -364,22 +363,21 @@ body[dir=ltr] div[type*=quit] .message:before {
     margin-right: 0.4em; /* commented out in Astria */
 }
 
-/* TODO need to modify colors */
+
 body[dir=ltr] div[type*=kick] .message {
-    color: #ff3d3d;
+    color: #dc322f;
     margin-right: 0.4em;
 }
 
 body[dir=ltr] div[type*=part] .message {
-    color: #ffae01;
+    color: #b58900;
     margin-right: 0.4em;
 }
 
 body[dir=ltr] div[type*=quit] .message {
-    color: #ffee7a;
+    color: rgba(181, 137, 0, 0.4); /* #b58900 w/opacity */
     margin-right: 0.4em;
 }
-/* end new */
 
 body[dir=ltr] div[type*=nick] .message:before {
     content:"•";
@@ -387,34 +385,32 @@ body[dir=ltr] div[type*=nick] .message:before {
     margin-right: 0.4em; /* commented out in Astria */
 }
 
-/* TODO colors */
 body[dir=ltr] div[type*=nick] .message {
-    color: #0090ff;
+    color: #268bd2;
     margin-right: 0.4em;
 }
 
 body[dir=ltr] div[type*=mode] .message:before {
     content: "❖";
-    color: #b4a355;
+    color: #859900;
 /* margin-right: 0.4em; */
 }
 
 body[dir=ltr] div[type*=mode] .message {
-    color: #9c9c9c;
+    color: #93a1a1;
     margin-right: 0.4em;
 }
 
 body[dir=ltr] div[type*=topic] .message:before {
     content: "✦";
-    color: #00a2ff;
+    color: #268bd2;
 /* margin-right: 0.4em; */
 }
 
 body[dir=ltr] div[type*=topic] .message {
-    color: #00ffa2;
+    color: #2aa198;
     margin-right: 0.4em;
 }
-/* end new */
 
 body[dir=rtl] div[type*=join] .message:before {
     content: "→";
@@ -422,18 +418,16 @@ body[dir=rtl] div[type*=join] .message:before {
     margin-left: 0.4em;  /* commented out in Astria */
 }
 
-/* TODO colors */
 body[dir=rtl] div[type*=join] .message {
-    color: #b589ff;
+    color: #6c71c4;
     margin-left: 0.4em;
 }
 
 body[dir=rtl] div[type*=kick] .message:before {
     content: "✕";
-    color: #e00;
+    color: #dc322f;
 /* margin-left: 0.4em; */
 }
-/* end new */
 
 body[dir=rtl] div[type*=part] .message:before,
 body[dir=rtl] div[type*=quit] .message:before {
@@ -442,22 +436,20 @@ body[dir=rtl] div[type*=quit] .message:before {
     margin-left: 0.4em;
 }
 
-/* TODO colors */
 body[dir=rtl] div[type*=kick] .message {
-    color: #ff3d3d;
+    color: #dc322f;
     margin-left: 0.4em;
 }
 
 body[dir=rtl] div[type*=part] .message {
-    color: #ffae01;
+    color: #cb4b16;
     margin-left: 0.4em;
 }
 
 body[dir=rtl] div[type*=quit] .message {
-    color: #ffee7a;
+    color: #b58900;
     margin-left: 0.4em;
 }
-/* end new */
 
 body[dir=rtl] div[type*=nick] .message:before {
     content:"•";
@@ -465,34 +457,32 @@ body[dir=rtl] div[type*=nick] .message:before {
     margin-left: 0.4em;
 }
 
-/* TODO colors */
 body[dir=rtl] div[type*=nick] .message {
-    color: #0090ff;
+    color: #268bd2;
     margin-left: 0.4em;
 }
 
 body[dir=rtl] div[type*=mode] .message:before {
     content: "❖";
-    color: #b4a355;
+    color: #b58900;
 /* margin-left: 0.4em; */
 }
 
 body[dir=rtl] div[type*=mode] .message {
-    color: #9c9c9c;
+    color: #93a1a1;
     margin-left: 0.4em;
 }
 
 body[dir=rtl] div[type*=topic] .message:before {
     content: "✦";
-    color: #00a2ff;
+    color: #268bd2;
 /* margin-left: 0.4em; */
 }
 
 body[dir=rtl] div[type*=topic] .message {
-    color: #00ffa2;
+    color: #2aa198;
     margin-left: 0.4em;
 }
-/* end new */
 
 /* Nickname Colors */
 
